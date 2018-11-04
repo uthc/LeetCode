@@ -24,6 +24,7 @@
 
 nums 的长度范围在[1, 50].
 每个 nums[i] 的整数范围在 [0, 99]. */
+
 func dominantIndex(nums []int) int {
 	if len(nums) == 1 {
 		return 0

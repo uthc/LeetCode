@@ -20,6 +20,7 @@
 	  / \   \
 	 5   4   7
 注意: 合并必须从两个树的根节点开始。 */
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {

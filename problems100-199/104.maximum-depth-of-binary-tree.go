@@ -14,6 +14,7 @@
     /  \
    15   7
 返回它的最大深度 3 。 */
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -22,6 +23,7 @@
  *     Right *TreeNode
  * }
  */
+ 
 func maxDepth(root *TreeNode) int {
 	if root != nil {
 		l := maxDepth(root.Left)

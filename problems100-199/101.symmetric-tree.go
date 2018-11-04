@@ -15,6 +15,7 @@
   2   2
    \   \
    3    3 */
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -23,6 +24,7 @@
  *     Right *TreeNode
  * }
  */
+ 
 func isSymmetric(root *TreeNode) bool {
 	if root == nil {
 		return true

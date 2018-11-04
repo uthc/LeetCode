@@ -10,6 +10,7 @@
    15   7
 
 在这个二叉树中，有两个左叶子，分别是 9 和 15，所以返回 24 */
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -18,6 +19,7 @@
  *     Right *TreeNode
  * }
  */
+ 
 func sumOfLeftLeaves(root *TreeNode) int {
 	if root == nil || (root.Left == nil && root.Right == nil) {
 		return 0

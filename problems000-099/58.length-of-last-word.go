@@ -9,6 +9,7 @@
 
 输入: "Hello World"
 输出: 5 */
+
 func lengthOfLastWord(s string) int {
 	end := len(s) - 1
 	for ; end >= 0 && s[end] == ' '; end-- {

@@ -15,8 +15,8 @@
 示例 3:
 
 输入: [1,1,1,3,3,4,3,2,4,2]
-输出: true
-*/
+输出: true*/
+
 func containsDuplicate(nums []int) bool {
 	m := make(map[int]bool)
 	for _, v := range nums {

@@ -13,6 +13,7 @@
 
 输入: nums = [1,5,9,1,5,9], k = 2, t = 3
 输出: false */
+
 func containsNearbyAlmostDuplicate(nums []int, k int, t int) bool {
 	for i := 1; i <= k; i++ {
 		for j := 0; j+i < len(nums); j++ {
