@@ -16,15 +16,6 @@
 
 输入: [1,1,1,3,3,4,3,2,4,2]
 输出: true
-您是否在真实的面试环节中遇到过这道题目呢？
-题目难度：简单
-通过次数：22.5K
-提交次数：54.8K
-贡献者：LeetCode
-相关话题
-
-相似题目
-存在重复元素 II存在重复元素 III
 */
 func containsDuplicate(nums []int) bool {
 	m := make(map[int]bool)
